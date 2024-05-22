@@ -1,0 +1,13 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://rain.db.elephantsql.com/warespvn
+    username: warespvn
+    password: 3ZoGPyKAEX405Vp-lcAKxLk_g0s_3qmU
+    hikari:
+      maximum-pool-size: 2
+  jpa:
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
